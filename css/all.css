@@ -135,7 +135,7 @@ a:hover{text-decoration:underline;}
 .wrapper-holder {
 	width:100%;
     display:table-row;
-    background: #50af6f;
+    background: #d147a3;
 }
 .wrapper-holder.grey{background: #28292b;}
 #header {
@@ -180,12 +180,12 @@ a:hover{text-decoration:underline;}
 }
 #nav ul li:first-child{padding: 0;}
 #nav ul a {
-	color: #aeecc2;
+	color: #f5d6eb;
 	font-size: 18px;
 	line-height: 20px;
 	text-transform: uppercase;
 	padding: 0 0 10px;
-	border-bottom: 4px solid #62bb7f;
+	border-bottom: 4px solid #d65cad;
 	font-family: 'novecentosanswide';
 	font-weight: normal;
 }
@@ -205,7 +205,7 @@ h2.slogan{
 	font-family: 'novecento_sans_widebook';
 	font-size: 30px;
 	line-height: 32px;
-	color: #aeecc2;
+	color: #f5d6eb;
 	padding: 34px 0 50px 0;
 	background: url(../images/slogan_bg.gif) no-repeat 50% 0;
 }
@@ -267,11 +267,11 @@ h2.slogan{
 	line-height: 16px;
 	display: block;
 	text-align: center;
-	padding: 15px 0 0 0;
+	padding: 10px 0 0 0;
 }
 .box_timeline h3{
 	font-family: 'novecento_sans_widemedium';
-	color: #50af6f;
+	color: #d147a3;
 	font-size: 14px;
 	line-height: 16px;
 	display: block;
@@ -318,7 +318,7 @@ h2.slogan{
 	margin: 0 0 27px;
 }
 .progress li span{
-	background: #50af6f;
+	background: #d147a3;
 	color: #fff;
 	text-transform:uppercase;
 	display: block;
@@ -327,9 +327,9 @@ h2.slogan{
 	font-size: 18px;
 	padding: 0 0 0 20px;
 }
-.progress li span.photoshop{width: 100%;}
-.progress li span.illustrator{width: 70%;}
-.progress li span.indesign{width: 40%;}
+.progress li span.sql{width: 80%;}
+.progress li span.excel{width: 90%;}
+.progress li span.python{width: 20%;}
 .progress li span.flash{width: 80%;}
 .progress li span.html{width: 75%;}
 .progress li span.wordpress{width: 85%;}
@@ -395,8 +395,8 @@ h2.slogan{
 	font-weight: normal;
 }
 .sub_nav a:hover,.sub_nav a.active{
-	color: #50af6f;
-	border-bottom: 4px solid #50af6f;
+	color: #d147a3;
+	border-bottom: 4px solid #d147a3;
 	text-decoration: none;
 	-webkit-transition: all 0.5s ease-in-out;
 -moz-transition: all 0.5s ease-in-out;
@@ -416,8 +416,8 @@ transition: all 0.5s ease-in-out;
 	font-weight: normal;
 }
 .sub_nav li:hover,.sub_nav .active {
-	color: #50af6f;
-	border-bottom: 4px solid #50af6f;
+	color: #d147a3;
+	border-bottom: 4px solid #d147a3;
 	text-decoration: none;
 	cursor: pointer;
 	-webkit-transition: all 0.5s ease-in-out;
@@ -457,7 +457,7 @@ transition: all 0.5s ease-in-out;
     position: absolute;
     top: 0;
     width: 100%;
-    background: #6abb84;
+    background: #d65cad;
 	opacity: 0.9;
 	border-radius: 50%;
 	behavior: url(css/PIE.htc);
@@ -556,7 +556,7 @@ transition: all 0.5s ease-in-out;
 }
 .footer-content .social li:first-child{margin: 0;}
 .footer-content .social li:hover{
-	background: #50af6f;
+	background: #d147a3;
 	-webkit-transition: all 0.5s ease-in-out;
 -moz-transition: all 0.5s ease-in-out;
 -o-transition: all 0.5s ease-in-out;
@@ -567,6 +567,7 @@ transition: all 0.5s ease-in-out;
 	position: relative;
 }
 .footer-content .social li.email a{background: url(../images/icon_email.png) no-repeat 50% 50% ;}
+.footer-content .social li.linkedin a{background: url(../images/icon_in.png) no-repeat 50% 50%;}
 .footer-content .social li.facebook a{background: url(../images/icon_fb.png) no-repeat 50% 50%;}
 .footer-content .social li.google a{background: url(../images/icon_gl.png) no-repeat 50% 50% ;}
 .footer-content .social li.twitter a{background: url(../images/icon_tw.png) no-repeat 50% 50% ;}
@@ -652,6 +653,10 @@ transition: all 0.5s ease-in-out;
 	.footer-content .social li.email a{
 		background-image: url(../images/icon_email@x2.png);
 		background-size:51px 38px;
+	}
+	.footer-content .social li.linkedin a{
+		background-image: url(../images/icon_in@x2.png);
+		background-size:38px 38px;
 	}
 	.footer-content .social li.facebook a{
 		background-image: url(../images/icon_fb@x2.png);
